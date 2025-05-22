@@ -12,9 +12,9 @@ export default function CookiesPolicy() {
 
       <main className="flex-grow py-12">
         <div className="container mx-auto px-4 max-w-4xl">
-          <h1 className="text-3xl font-bold mb-8">Cookie Szabályzat</h1>
+          <h1 className="text-3xl font-bold mb-8 text-center">Cookie Szabályzat</h1>
 
-          <div className="prose prose-blue max-w-none">
+          <div className="prose prose-blue max-w-none bg-white p-8 rounded-lg shadow-md">
             <p className="lead">
               Ez a Cookie Szabályzat elmagyarázza, hogyan használja a "Zeltrovia" a cookie-kat és hasonló technológiákat
               az Ön felismerésére, amikor meglátogatja weboldalunkat. Elmagyarázza, hogy mik ezek a technológiák és
@@ -102,7 +102,10 @@ export default function CookiesPolicy() {
             <ul>
               <li>Email: team@zeltrovia.com</li>
               <li>Telefon: +36 1 415 7790</li>
+              <li>Cím: Váci utca 23, Budapest, 1052</li>
             </ul>
+
+            <p className="text-sm text-gray-600 mt-8">Utolsó frissítés: 2025. május 22.</p>
           </div>
         </div>
       </main>

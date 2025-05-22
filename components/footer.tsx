@@ -82,16 +82,16 @@ export default function Footer() {
             <div className="flex flex-wrap justify-center gap-6">
               <a href="https://www.gamcare.org.uk/" target="_blank" rel="noopener noreferrer" className="block">
                 <Image
-                  src="/logo_c5e56a7f.svg"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-X4V5wJcne4YL8oHfFiNroxLroCKrWe.svg"
                   alt="GamCare"
                   width={120}
                   height={40}
                   className="h-10 w-auto"
                 />
               </a>
-              <a href="https://www.gambleaware.org/" target="_blank" rel="noopener noreferrer" className="block">
+              <a href="https://www.begambleaware.org/" target="_blank" rel="noopener noreferrer" className="block">
                 <Image
-                  src="/logo-orange.webp"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-orange-hayDTdS4bEg7dXrXPvk8aYUflymYAi.webp"
                   alt="GambleAware"
                   width={120}
                   height={40}
@@ -100,7 +100,7 @@ export default function Footer() {
               </a>
               <a href="https://www.gamstop.co.uk/" target="_blank" rel="noopener noreferrer" className="block">
                 <Image
-                  src="/logo2.svg"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo_c5e56a7f-rxrYSeXEdgkZOKn4VnVmethnXTgikP.svg"
                   alt="GamStop"
                   width={120}
                   height={40}

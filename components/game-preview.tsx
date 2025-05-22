@@ -27,7 +27,7 @@ export default function GamePreview() {
 
             <div className="flex flex-wrap gap-4">
               <Button size="lg" className="bg-blue-600 hover:bg-blue-700" onClick={() => setShowDisclaimerModal(true)}>
-                Játék
+                Грати
               </Button>
             </div>
           </div>

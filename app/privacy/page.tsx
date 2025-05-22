@@ -12,9 +12,9 @@ export default function PrivacyPolicy() {
 
       <main className="flex-grow py-12">
         <div className="container mx-auto px-4 max-w-4xl">
-          <h1 className="text-3xl font-bold mb-8">Adatvédelmi Irányelvek</h1>
+          <h1 className="text-3xl font-bold mb-8 text-center">Adatvédelmi Irányelvek</h1>
 
-          <div className="prose prose-blue max-w-none">
+          <div className="prose prose-blue max-w-none bg-white p-8 rounded-lg shadow-md">
             <p className="lead">
               Ez az Adatvédelmi Irányelv leírja, hogyan gyűjti, használja és osztja meg a "Zeltrovia" az Ön információit
               weboldalunk használata során.
@@ -156,6 +156,8 @@ export default function PrivacyPolicy() {
               <li>Telefon: +36 1 415 7790</li>
               <li>Cím: Váci utca 23, Budapest, 1052</li>
             </ul>
+
+            <p className="text-sm text-gray-600 mt-8">Utolsó frissítés: 2025. május 22.</p>
           </div>
         </div>
       </main>

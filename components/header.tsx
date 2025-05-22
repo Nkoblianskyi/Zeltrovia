@@ -22,9 +22,23 @@ export default function Header() {
             <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium">
               Főoldal
             </Link>
-            <Link href="/privacy" className="text-gray-700 hover:text-blue-600 font-medium">
-              Szabályzatok
-            </Link>
+            <div className="relative group">
+              <button className="text-gray-700 hover:text-blue-600 font-medium">Szabályzatok</button>
+              <div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-10 hidden group-hover:block">
+                <Link href="/terms" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                  Felhasználási feltételek
+                </Link>
+                <Link href="/privacy" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                  Adatvédelmi irányelvek
+                </Link>
+                <Link href="/cookies" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                  Cookie szabályzat
+                </Link>
+                <Link href="/disclaimer" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                  Felelősségkizárás
+                </Link>
+              </div>
+            </div>
           </nav>
 
           <div className="md:hidden">
@@ -49,13 +63,39 @@ export default function Header() {
             >
               Főoldal
             </Link>
-            <Link
-              href="/privacy"
-              className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-blue-600 hover:bg-gray-50"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Szabályzatok
-            </Link>
+            <div className="px-3 py-2">
+              <p className="text-base font-medium text-gray-700 mb-2">Szabályzatok</p>
+              <div className="pl-4 space-y-1">
+                <Link
+                  href="/terms"
+                  className="block py-1 text-sm text-gray-700 hover:text-blue-600"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Felhasználási feltételek
+                </Link>
+                <Link
+                  href="/privacy"
+                  className="block py-1 text-sm text-gray-700 hover:text-blue-600"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Adatvédelmi irányelvek
+                </Link>
+                <Link
+                  href="/cookies"
+                  className="block py-1 text-sm text-gray-700 hover:text-blue-600"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Cookie szabályzat
+                </Link>
+                <Link
+                  href="/disclaimer"
+                  className="block py-1 text-sm text-gray-700 hover:text-blue-600"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Felelősségkizárás
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       )}
