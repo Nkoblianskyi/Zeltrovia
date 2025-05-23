@@ -60,11 +60,6 @@ export default function Leaderboard() {
                 </div>
               ))}
             </div>
-
-            <div className="mt-6 text-center">
-              <p className="text-gray-500 text-sm mb-2">Nem látod magad a ranglistán?</p>
-              <button className="text-blue-600 hover:text-blue-800 font-medium">Teljes ranglista megtekintése</button>
-            </div>
           </CardContent>
         </Card>
       </div>
